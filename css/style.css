@@ -1,0 +1,47 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #202124;
+    --primary-color: #1a73e8;
+}
+
+body.dark-mode {
+    --bg-color: #202124;
+    --text-color: #e8eaed;
+}
+
+body {
+    font-family: 'Google Sans', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+}
+
+#theme-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+}
+
+#hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+#projects {
+    padding: 40px 20px;
+}
+
+.project-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
