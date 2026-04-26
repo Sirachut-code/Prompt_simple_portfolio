@@ -15,4 +15,4 @@ A modern, light-themed portfolio website for a Data Analyst.
 - JavaScript (Vanilla)
 
 ## Deployment
-Deployed via GitHub Pages.
+Deployed via GitHub Pages from the `/docs` folder.
